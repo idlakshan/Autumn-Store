@@ -17,7 +17,7 @@ const Product = ({ product }) => {
                 </div>
                 <div className='absolute top-6 -right-11 p-2 flex flex-col justify-center items-center gap-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:right-5'>
                     <button onClick={()=>addToCart(product,id)}>
-                        <div className='flex justify-center items-center w-12 h-12 text-white bg-red-500'><BsPlus className='text-3xl' /></div>
+                        <div  className='flex justify-center items-center w-12 h-12 text-white bg-red-500'><BsPlus className='text-3xl' /></div>
                     </button>
                     <Link to={`/product/${id}`} className='w-12 h-12 bg-white flex items-center justify-center text-primary drop-shadow-xl'><BsEyeFill /></Link>
                 </div>
